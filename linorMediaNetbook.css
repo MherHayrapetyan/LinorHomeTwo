@@ -1,0 +1,351 @@
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+    .menu {
+        display: none;
+    }
+
+    .sms {
+        display: none;
+    }
+
+    .textOne p {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+        margin-left: 100%;
+    }
+
+    header {
+        justify-content: space-between;
+    }
+
+    .logo {
+        width: 20%;
+    }
+
+    .informOne {
+        width: 20%;
+        margin-top: 100px;
+        border: none;
+        margin-right: 10%;
+    }
+
+    .AnimSmallBoxSix {
+        margin-top: 155px;
+    }
+
+    .AnimSmallBoxNine {
+    	left: 20%;
+    	top: 100px;
+    }
+    
+    .AnimSmallBoxThre {
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .AnimSmallBoxFour {
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 100px;
+    }
+
+    .AnimSmallBoxFive {
+        margin-top: 30px;  
+        width: 35%;
+        left: 32.5%;
+    }
+
+    .informthre {
+    	width: 1420%;
+        left: -1420%;
+    }
+
+    .logoThre {
+    	width: 27%;
+    	margin-top: 10px;
+    }
+
+    .conteinerOne {
+        flex-direction: row;
+        height: 350px;
+    }
+
+    .conteinerTwo_sectionBox  {
+        flex-direction: column;
+        margin-left: -50%;
+        align-items: center;
+    }
+
+    .conteinerTwo_sectionBox >div {
+        margin-top: 20px;
+        width: 90%;
+        margin-left: 135%;
+    }
+
+    .conteinerTwo_textOne {
+        width: 100%;
+    }
+
+    .conteinerTwo_textTwo {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .conteinerThre_section {
+        flex-direction: column;
+        width: 90%;
+        margin-top: 100px;
+    }
+
+    .conteinerThre_sectionTextBigBox {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .conteinerThre_sectionTextSmallBoxOne {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .conteinerThre_sectionTextSmallBoxTwo {
+        width: 90%;
+    }
+
+    .conteinerThre_sectionTextSmallBoxTwo {
+        width: 90%;
+    }
+
+    .conteinerThre_sectionTextSmallBoxThre {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .conteinerThre_sectionImg {
+        width: 90%;
+    }
+
+    .conteinerThre {
+        height: 885px;
+    }  
+
+    .conteinerThre_sectionTextSmallBoxOne {
+        margin-top: 10px; 
+    }
+
+    .conteinerFourImgSmallBox:nth-child(1) {
+        width: 48%;
+    }
+
+    .conteinerFourImgSmallBox:nth-child(2) {
+        width: 48%;
+    }
+
+    .conteinerFourImgSmallBox:nth-child(3) {
+        display: none;
+    }
+
+    .conteinerFive {
+        flex-direction: column;
+        margin-top: 300px;
+    }
+
+    .conteinerFivese_sectionTwoSmallboxText {   
+        align-items: center;
+    }
+
+    .conteinerFivese_sectionOneBigbox  {
+        width: 200%;
+        margin-left: 10%;
+    }
+
+    .conteinerFivese_sectionOneBigbox::after {
+        margin-top: -70px;
+    }
+
+    .video_button {
+        top: 80%;
+        left: 150%;
+    }
+
+    .conteinerFivese_sectionTwoBigbox {
+        width: 100%;
+        margin-top: 20px;
+    }
+       
+    .conteinerSix_SectionOneSmallBoX {
+        display: none;
+    }
+
+    .conteinerSix_SectionOneSmallBox {
+        width: 100%;
+    }
+
+    .conteinerSevenTwoTitle {
+        width: 100%;
+    }
+
+    .conteinerSevenTwoBox {
+        width: 100%;
+    }
+
+    .conteinerSevenTwoButton {
+        margin-top: 200px;
+        width: 25%;
+        height: 80px;
+    }
+
+    .conteinerEightBoxThree {
+        left: 4%;
+        top: 90px;
+        width: 92%;
+    }
+
+    .conteinerEightBoxOne {
+        width: 100%;
+    }
+
+    .conteinerEightBoxTwo {
+        width: 100%;
+    }
+
+    .conteinerEight {
+        height: 1050px;
+    }
+
+    .envatoBigBox div {
+        display: none;
+        width: 30%;
+    }
+
+    .envatoBigBox div:nth-child(1) {
+        display: block;
+    }
+
+    .envatoBigBox div:nth-child(2) {
+        display: block;
+    }
+
+
+    .envatoBigBox div:nth-child(3) {
+        display: block;
+    }
+
+    .conteinerNine_sectionBoxOne {
+        flex-direction: column;
+    }
+
+    .conteinerNine_sectionBoxTwo {
+        width: 100%;
+    }
+
+    .conteinerNine_sectionBoxThre {
+        width: 100%;
+        margin-top: 120px;
+    }
+
+    .conteinerNine {
+        height: 1780px;
+    }
+
+    .conteinerTen {
+        flex-direction: column;
+    }
+
+    .conteinerTen >div {
+        width: 100%;
+    }
+
+    .footerBigBoxBoxOne {
+        width: 100%;
+        height: 30%;
+    }
+
+    .footerBigBox {
+        height: 1600px;
+        flex-direction: column;
+    }
+
+    footer {
+        height: 1900px;
+    }
+
+    .informFiveTwo {
+        width: 280px;
+    }
+
+    .footerBigBoxBoxTwo {
+        width: 100%;  
+    }
+
+    .footerBigBoxBoxTwoTextBigBox {
+        flex-direction: column;
+    }
+
+    .footerBigBoxBoxTwoTextSmallBox {
+        width: 100%;
+    }
+
+    .footerBigBoxBoxThre {
+        width: 100%;
+        margin-top: 100px;    
+        height: 30%;
+    }
+
+    .footerBigBoxBoxFour {
+        width: 100%; 
+        margin-top: 100px;    
+    }
+
+} 
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+    .conteinerTen {
+        height: 1000px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 912px) {
+
+    .conteinerThre {
+        top: 2500px;
+    }  
+
+    .top {
+        margin-top: 1795px;
+    }
+  
+}
+
+@media (min-width: 912px) and (max-width: 919px) {
+
+    .conteinerThre {
+        top: 2450px;
+    }
+
+    .top {
+        margin-top: 1747px;
+    } 
+  
+}
+
+@media (min-width: 919px) and (max-width: 992px) {
+
+    .conteinerThre {
+        top: 2400px;
+    }  
+
+    .top {
+        margin-top: 1695px;
+    } 
+  
+}

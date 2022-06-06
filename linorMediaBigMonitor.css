@@ -1,0 +1,41 @@
+
+@media only screen and (min-width: 1200px) {
+
+    .AnimSmallBoxSix {
+        margin-top: 40px;
+    }
+
+    .AnimSmallBoxThre {
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .AnimSmallBoxFour {
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1320px) {
+ 
+    .conteinerThre_sectionImg::before {
+        top: 233px;
+        left: -40%;
+    }
+
+    .conteinerThre_sectionImg {
+        height: 362px;
+    }
+  
+}
+
+@media only screen and (min-width: 1999px) {
+
+    .conteinerThre_sectionImg {
+        height: 461px;
+    }
+  
+}

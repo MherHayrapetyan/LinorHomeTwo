@@ -1,0 +1,318 @@
+
+@keyframes loading {
+	0% {transform: rotate(0deg); opacity: 1;}
+	80% {transform: rotate(576deg); opacity: 1;}
+	100% {transform: rotate(720deg); opacity: 0;}
+}
+
+@keyframes body {
+	0% {background: #1C1E22;}
+	99% {background: #1C1E22;}
+	100% {background: white;}
+}
+
+@keyframes headerBigBoxOne {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+@keyframes headerBigBoxTwo {
+	0% {transform: scale(1);}
+	100% {transform: scale(1.3);}
+}
+
+.hoverBottom:hover {
+    border-bottom: 2px solid white;
+}
+
+.menu_ul >li:hover .dropdawun {
+	display: flex;
+}
+
+.dropdawun >li >a:hover {
+	color: #FFAA16;
+}
+
+@keyframes animationOne {
+	from {top: -300px;}
+	to {top: 0;}
+}
+
+@keyframes animationTwo {
+	from {left: -30%; opacity: 0;}
+	to {left: 0; opacity: 1;}
+}
+
+@keyframes animationThre {
+	from {top: 270px; opacity: 0;}
+	to {top: 240px; opacity: 1;}
+}
+
+@keyframes animationFour {
+	from {top: 310px; opacity: 0;}
+	to {top: 280px; opacity: 1;}
+}
+
+@keyframes animationFive {
+	from {top: 580px; opacity: 0;}
+	to {top: 550px; opacity: 1;}
+}
+
+@keyframes animationSix {
+	from {left: 60%; opacity: 0;}
+	to {left: 49%; opacity: 1;}
+}
+
+@keyframes animationSeven {
+	from {left: 106.1%; opacity: 0;}
+	to {left: 85.1%; opacity: 1;}
+}
+
+@keyframes animationEight {
+	from {top: -675px; opacity: 0;}
+	to {top: 0; opacity: 1;}
+}
+
+@keyframes animationNine {
+	from {transform: scale(0);}
+	to {transform: scale(1);}
+}
+
+.AnimSmallBoxFive  button:hover {
+	background-color: black;
+	color: white
+}
+
+@keyframes conteinerOne {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+.conteinerTwo_sectionBox >div:hover {
+	background-color:  #1C1E22;
+}
+
+.conteinerTwo_sectionBox >div:hover .titleOne a{
+	color: white;
+}
+
+.titleOne a:hover {
+	text-decoration: underline;
+}
+
+@keyframes conteinerTwo_sectionBox {
+	from {top: 210px; opacity: 0;}
+	to {top: 60px; opacity: 1;}
+}
+
+.conteinerOne >div:hover::before {
+	transform: scaleX(1);
+}
+
+.menu_ul >li:hover::before {
+    content: "";
+	transform: scaleX(1);
+}
+
+.infomrFour_ul li a:hover {
+	color: #FFAA16;
+}
+
+.titleTwo a:hover {
+	text-decoration: underline;
+	color: #FFAA16;
+}
+
+.informFive div:hover {
+	background-color: #FFAA16;
+}
+
+.informFiveTwo div:hover {
+	background-color: #FFAA16;
+}
+
+.burger:hover .informthre {
+	display: block;
+}
+
+.conteinerThre_sectionImg img:hover{
+   filter: grayscale(0%);
+}
+
+@keyframes conteinerThre_sectionImg {
+	from {left: -20%; opacity: 0;}
+	to {left: 0; opacity: 1;}
+}
+
+.conteinerFourImgSmallBox:nth-child(1):hover {
+	filter: grayscale(0%);
+}
+
+.conteinerFourImgSmallBox:nth-child(2):hover {
+	filter: grayscale(0%);
+}
+
+.conteinerFourImgSmallBox:nth-child(3):hover {
+	filter: grayscale(0%);
+}
+
+.conteinerFourImgSmallBox:nth-child(1):hover .conteinerFourImgSmallBOxInformOne {
+	transform: translateY(0);
+}
+
+.conteinerFourImgSmallBox:nth-child(2):hover .conteinerFourImgSmallBOxInformTwo {
+	transform: translateY(0);
+}
+
+.conteinerFourImgSmallBox:nth-child(3):hover .conteinerFourImgSmallBOxInformThre {
+	transform: translateY(0);
+}
+
+.conteinerFourImgSmallBOxInformOneInformTwo a:hover {
+	text-decoration: underline;
+}
+
+.video_button:hover{
+	color: #FFAA16;
+	background: #1C1E22;
+	-webkit-box-shadow: 1px 3px 50px 19px #FFAA16; 
+    box-shadow: 1px 3px 50px 19px #FFAA16;
+}
+
+.conteinerFivese_sectionOneBigbox:hover img  {
+	filter: grayscale(0%);
+}
+
+.conteinerFivese_sectionTwoSmallboxtrue:hover {
+	background: #1C1E22;
+	color: #FFEED1;
+}
+
+.conteinerSix_SectionOneSmallBoX:hover img {
+	filter: grayscale(0%);
+	transition: 1s;
+}
+
+.conteinerSix_SectionOneSmallBox:hover img {
+	filter: grayscale(0%);
+	transition: 1s;
+}
+
+.conteinerSix_SectionOneSmallBox:hover {
+	background: #FFAA16;
+	transition: 1s;
+}
+
+.conteinerSix_SectionOneSmallBoX:hover {
+	background: #FFAA16;
+	transition: 1s;
+}
+
+.conteinerSix_SectionOneSmallBoX:hover span {
+	color: black;
+	transition: 1s;
+}
+
+.conteinerSix_SectionOneSmallBox:hover span {
+	color: black;
+	transition: 1s;
+}
+
+.conteinerSevenTwoButton button:hover {
+	background: #1C1E22;
+	color: white;
+}
+
+.conteinerEightBoxThreeInputBigBoxInputOne input:hover {
+	border: 3px solid #FFAA16;
+}
+
+.conteinerEightBoxThreeInputBigBoxInputOne select:hover {
+	border: 3px solid #FFAA16;
+}
+
+.conteinerEightBoxThreeInputBigBoxInputOne button:hover {
+	background: #1C1E22;
+	color: white; 
+}
+
+@keyframes conteinerEightBoxThree {
+	from {opacity: 0; transform: translateX(30%);}
+	to {opacity: 1; transform: translateX(0);}
+}
+
+.envatoBigBox div:hover {
+	opacity: 1;
+	transition: 1s;
+}
+
+.conteinerNine_sectionBoxImgInformTwo:hover {
+	opacity: 1;
+}
+
+.conteinerNine_sectionBoxImgInformThre:hover {
+	opacity: 1;
+}
+
+.conteinerNine_sectionBoxTitle a:hover {
+	color: #FFAA16;
+	text-decoration: underline;
+}
+
+.conteinerNine_sectionBoxbutton div:hover {
+	transition: .5s;
+	background: #FFAA16;
+	color: black;
+}
+
+.conteinerNine_sectionBoxFour:hover img {
+	filter: grayscale(0%);
+	transition: .5s;
+}
+
+.conteinerNine_sectionBoxFive:hover img {
+	filter: grayscale(0%);
+	transition: .5s;
+}
+
+.conteinerNine_sectionBoxThre:hover img {
+	filter: grayscale(0%);
+	transition: .5s;
+}
+
+.conteinerTen_sectionTextBigBoxButtonTwo button:hover {
+	color: black;
+	background: white;
+	transition: 1s;
+}
+
+.conteinerTen_sectionTextBigBoxButton button:hover {
+	color: white;
+	background: black;
+	transition: 1s;
+}
+
+.footerBigBoxBoxTwoTextSmallBox span:hover::before {
+	transform: scaleX(1);
+}
+
+.footerBigBoxBoxTwoTextSmallBox span:hover {
+	opacity: 1;
+}
+
+.footerBigBoxBoxThreSmallBoxTetxTwo:hover {
+    opacity: 1;
+    color: white;
+    text-decoration: underline;
+}
+
+.footerBigBoxBoxFourInput input:hover {
+	border: 2px solid #FFAA16;
+	transition: 1s;
+}
+
+.footerBigBoxBoxFourInput:hover::after {
+	background: white;
+	color: #FFAA16;
+	transition: 1s;
+}

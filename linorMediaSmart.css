@@ -1,0 +1,594 @@
+
+@media only screen and (max-width: 576px) {
+
+    .menu {
+        display: none;
+    }
+
+    .sms {
+        display: none;
+    }
+
+    .textOne p {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    header {
+        justify-content: space-between;
+    }
+
+    .logo {
+        width: 30%;
+    }
+
+    .informOne {
+        width: 20%;
+        margin-top: 100px;
+        border: none;
+        margin-right: 10%;
+    }
+
+    .AnimSmallBoxOne {
+        display: none;
+    }
+
+    .AnimSmallBoxTwo {
+        display: none;
+    }
+
+    .AnimSmallBoxSix {
+        display: none;
+    }
+
+    .AnimSmallBoxSeven {
+        display: none;
+    }
+
+    .AnimSmallBoxEight {
+        display: none;
+    }
+
+    .AnimSmallBoxNine {
+        display: none;
+    }
+    
+    .AnimSmallBoxThre {
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .AnimSmallBoxFour {
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 65px;
+    }
+
+    .AnimSmallBoxFive {
+        margin-top: 30px;  
+        width: 40%;
+        left: 30%;
+    }
+
+    .conteinerOne {
+        flex-direction: column;
+        height: 700px;
+        align-items: center;
+    }
+
+    .conteinerOne >div:nth-child(2) {
+        border-left: none;
+    }
+
+    .conteinerOne >div:nth-child(3) {
+        border-left: none;
+    }
+
+    .conteinerOne >div:nth-child(4) {
+        border-left: none;
+    }
+
+    .conteinerTwo_textBox {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .conteinerTwo_textOne {
+        font-size: 37px;
+    }
+
+    .conteinerTwo_sectionBox  {
+        flex-direction: column;
+        margin-left: -50%;
+        align-items: center;
+    }
+
+    .conteinerTwo_sectionBox >div {
+        margin-top: 20px;
+        width: 90%;
+        margin-left: 135%;
+    }
+
+    .conteinerTwo_textOne {
+        width: 100%;
+    }
+
+    .conteinerTwo_textTwo {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .conteinerThre_section {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .conteinerThre_sectionTextBigBox {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .conteinerThre_sectionTextSmallBoxOne {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .conteinerThre_sectionTextSmallBoxTwo {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .conteinerThre_sectionTextSmallBoxTwo {
+        width: 90%;
+    }
+
+    .conteinerThre_sectionTextSmallBoxThre {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .conteinerThre_sectionImg {
+        width: 90%;
+    }
+
+    .conteinerThre_sectionImg::before {
+        display: none;
+    }
+
+    .conteinerThre_sectionTextSmallBoxOne {
+        margin-top: 10px; 
+    }
+
+    .conteinerFourMenuUl >li:nth-child(1)::before {
+        top: 15px;
+    }
+
+    .conteinerFourImgSmallBox:nth-child(1) {
+        width: 100%;
+    }
+
+    .conteinerFourImgSmallBox:nth-child(2) {
+        display: none;
+    }
+
+    .conteinerFourImgSmallBox:nth-child(3) {
+        display: none;
+    }
+
+    .conteinerFive {
+        flex-direction: column;
+    }
+
+    .conteinerFivese_sectionTwoSmallboxText {   
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .conteinerFivese_sectionOneBigbox  {
+        width: 200%;
+        margin-left: 10%;
+    }
+
+    .conteinerFivese_sectionOneBigbox::after {
+        margin-top: -70px;
+    }
+
+    .video_button {
+        top: 70%;
+        left: 140%;
+        width: 100px;
+        height: 100px;
+    }
+
+    .conteinerFivese_sectionTwoBigbox {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .conteinerFivese_sectionTwoSmallboxTextBigBox {
+        margin-top: 30px;
+    }
+
+    .conteinerSix_SectionOneSmallBoX {
+        display: none;
+    }
+
+    .conteinerSix_SectionOneSmallBox {
+        width: 100%;
+    }
+
+    .conteinerSixTitle p {
+        font-size: 47px;
+    }
+
+    .conteinerSix_SectionOneSmallBoxOneSmallBoxOneSmallBoxOneImg {
+        width: 40%;
+    }
+
+    .conteinerSix {
+        height: 750px;
+    }
+
+    .conteinerSix_SectionOneSmallBox {
+        height: 425px;
+    }
+
+    .conteinerSevenTwoTitle {
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .conteinerSevenTwoBox {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .borderbox {
+        border: none;
+    }
+
+    .conteinerSevenOne {
+        height: 1100px;
+    }
+
+    .conteinerSevenTwo {
+        height: 1100px;
+    }
+
+    .cover {
+        height: 1100px;
+    }
+
+    .conteinerSevenTwoButton {
+        margin: auto;
+        margin-top: 120px;
+        width: 40%;
+        height: 80px;
+    }
+
+    .conteinerEightBoxOne {
+        flex-direction: column;
+        width: 93%;
+    }
+    
+    .conteinerEightBoxSmallImg {
+        width: 100%;
+    }
+
+    .conteinerEightBoxSmallBox {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .conteinerEightBoxTwo {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .conteinerEightBoxTwoNumber {
+        width: 100%;
+    }
+
+    .conteinerEightBoxTwoImg {
+        width: 93%;
+        margin-top: 20px;
+    }
+
+    .conteinerEightBoxTwoImg::before {
+        display: none;
+    }
+
+    .conteinerEightBoxThreeInputBigBox {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .envatoBigBox div {
+        display: none;
+        width: 80%;
+    }
+
+    .envatoBigBox div:nth-child(1) {
+        display: block;
+    }
+
+    .conteinerNine {
+        height: 2350px;
+    }
+
+    .conteinerNine_sectionBoxOne {
+        flex-direction: column;
+    }
+
+    .conteinerNine_sectionBoxTwo {
+        flex-direction: column;
+        width: 100%;
+        height: 300%;
+    }
+
+    .conteinerNine_sectionBoxFour  {
+        width: 100%;
+    }
+
+    .conteinerNine_sectionBoxFive {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .conteinerNine_sectionBoxThre {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .conteinerNine_sectionBoxImgInform {
+        width: 90%;
+    }
+
+    .conteinerTen {
+        flex-direction: column;
+    }
+
+    .conteinerTen >div {
+        width: 100%;
+    }
+
+    .footerBigBoxBoxOne {
+        width: 100%;
+        height: 30%;
+    }
+
+    .footerBigBox {
+        height: 1700px;
+        flex-direction: column;
+    }
+
+    footer {
+        height: 2000px;
+    }
+
+    .informFiveTwo {
+        width: 280px;
+    }
+
+    .footerBigBoxBoxTwo {
+        width: 100%;
+        margin-top: 50px;    
+    }
+
+    .footerBigBoxBoxTwoTextBigBox {
+        flex-direction: column;
+    }
+
+    .footerBigBoxBoxTwoTextSmallBox {
+        width: 100%;
+    }
+
+    .footerBigBoxBoxThre {
+        width: 100%;
+        margin-top: 50px;    
+    }
+
+    .footerBigBoxBoxFour {
+        width: 100%;
+        margin-top: 50px;    
+    }
+
+}
+
+@media only screen and (max-width: 335px) {
+
+    .conteinerTen {
+        height: 1300px;
+    }
+
+}
+
+@media (min-width: 335px) and (max-width: 439px) {
+
+    .conteinerTen {
+        height: 1200px;
+    }
+
+}
+
+@media (min-width: 439px) and (max-width: 576px) {
+
+    .conteinerTen {
+        height: 1060px;
+    }
+
+}
+
+@media only screen and (max-width: 439px) {
+
+    .conteinerEightBoxThree {
+        display: block;
+        top: 180px;
+        left: 3%;
+        width: 94%;
+    }
+
+    .conteinerEight {
+        height: 1350px;
+    }
+
+}
+
+@media only screen and (max-width: 439px) {
+
+    .conteinerEightBoxThree {
+        display: block;
+        top: 180px;
+        left: 3%;
+        width: 94%;
+    }
+
+    .conteinerEight {
+        height: 1350px;
+    }
+
+}
+
+@media (min-width: 439px) and (max-width: 576px) {
+
+    .conteinerEightBoxThree {
+        display: block;
+        top: 280px;
+        left: 3%;
+        width: 94%;
+    }
+
+    .conteinerEight {
+        height: 1500px;
+    }
+
+} 
+
+@media only screen and (max-width: 350px) {
+
+    .conteinerThre_sectionTextSmallBoxThreOne::before {
+        left: -5%;
+    }
+
+    .conteinerThre {
+        top: 3300px;
+        height: 1500px;
+    }
+
+    .top {
+        margin-top: 2860px;
+    }
+
+}
+
+@media (min-width: 350px) and (max-width: 409px) {
+
+    .conteinerThre_sectionTextSmallBoxThreOne::before {
+        left: 5%;
+    }
+
+    .conteinerThre {
+        top: 3200px;
+        height: 1400px;
+    }
+
+    .top {
+        margin-top: 2660px;
+    }
+
+}
+
+@media (min-width: 409px) and (max-width: 489px) {
+
+    .conteinerThre_sectionTextSmallBoxThreOne::before {
+        left: 12%;
+    }
+
+     .conteinerThre {
+        top: 3100px;
+        height: 1300px;
+    }
+
+    .top {
+        margin-top: 2460px;
+    }
+
+}
+
+@media (min-width: 489px) and (max-width: 576px) {
+
+    .conteinerThre_sectionTextSmallBoxThreOne::before {
+        left: 19%;
+    }
+
+    .conteinerThre {
+        top: 3000px;
+        height: 1200px;
+    }
+
+    .top {
+        margin-top: 2260px;
+    }
+
+}
+
+@media (min-width: 489px) and (max-width: 492px) {
+
+    .conteinerThre {
+        top: 3000px;
+    }
+
+    .top {
+        margin-top: 2260px;
+    }
+
+}
+
+@media (min-width: 492px) and (max-width: 576px) {
+
+    .conteinerThre {
+        top: 2900px;
+    }
+
+    .top {
+        margin-top: 2160px;
+    }
+    
+}
+
+@media only screen and (max-width: 460px) {
+
+    .informthre {
+       left: -600%; 
+       width: 730%;
+    }
+
+    .logoThre {
+        width: 45%;
+        margin-top: 10px;
+    }
+
+}
+
+@media (min-width: 460px) and (max-width: 576px) {
+    
+    .informthre {
+       left: -780%; 
+       width: 800%;
+    }
+
+    .logoThre {
+        width: 40%;
+        margin-top: 10px;
+    }
+
+}

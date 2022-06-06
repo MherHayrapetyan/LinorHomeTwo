@@ -1,0 +1,234 @@
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .menu {
+        display: none;
+    }
+
+    .sms {
+        display: none;
+    }
+
+    .textOne p {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+        margin-left: 100%;
+    }
+
+    header {
+        justify-content: space-between;
+    }
+
+    .logo {
+        width: 20%;
+    }
+
+    .informOne {
+        width: 20%;
+        margin-top: 100px;
+        border: none;
+        margin-right: 10%;
+    }
+
+    .AnimSmallBoxSix {
+        margin-top: 105px;
+    }
+
+    .AnimSmallBoxNine {
+    	left: 20%;
+    	top: 100px;
+    }
+    
+    .AnimSmallBoxThre {
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .AnimSmallBoxFour {
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 100px;
+    }
+
+    .AnimSmallBoxFive {
+        margin-top: 30px;  
+        width: 25%;
+        left: 37.5%;
+    }
+
+    .informthre {
+    	width: 1800%;
+        left: -1780%;
+    }
+
+    .conteinerThre_section {
+        width: 85%;
+    }
+
+    .conteinerThre_sectionTextSmallBoxThreOne::before {
+        left: -5%;
+    }
+
+    .conteinerThre_sectionImg {
+        height: 315px;
+    }
+
+    .conteinerThre_sectionImg::before {
+        top: 189px;
+        left: -43%;
+    }
+
+    .top {
+        margin-top: 776px;
+    }
+
+    .conteinerSevenTwoTitle {
+        width: 70%;
+    }
+
+    .conteinerSevenTwoBox {
+        width: 70%;
+    }
+
+    .conteinerSevenTwoButton {
+        margin-top: 200px;
+        width: 20%;
+        height: 80px;
+    }
+
+    .conteinerEightBoxThree {
+        left: 4%;
+        top: 90px;
+        width: 92%;
+    }
+
+    .conteinerEightBoxOne {
+        width: 100%;
+    }
+
+    .conteinerEightBoxTwo {
+        width: 100%;
+    }
+
+    .conteinerEight {
+        height: 1100px;
+    }
+
+    .envatoBigBox div {
+        display: none;
+        width: 20%;
+    }
+
+    .envatoBigBox div:nth-child(1) {
+        display: block;
+    }
+
+    .envatoBigBox div:nth-child(2) {
+        display: block;
+    }
+
+
+    .envatoBigBox div:nth-child(3) {
+        display: block;
+    }
+
+
+    .envatoBigBox div:nth-child(4) {
+        display: block;
+    }
+
+    .informFiveTwo {
+        width: 85%;
+    }
+
+} 
+
+@media (min-width: 992px) and (max-width: 1038px) {
+
+    .conteinerThre_sectionTextSmallBoxThre {
+        height: 120px;
+    }
+  
+}
+
+@media (min-width: 992px) and (max-width: 1099px) {
+ 
+    .conteinerThre_sectionTextSmallBoxThreOne::before {
+        left: -5%;
+    }
+  
+}
+
+@media (min-width: 1099px) and (max-width: 1200px) {
+ 
+    .conteinerThre_sectionTextSmallBoxThreOne::before {
+        left: 0;
+    }
+  
+}
+
+@media (min-width: 992px) and (max-width: 1000px) {
+
+    .conteinerFive {
+        flex-direction: column;
+        margin-top: 300px;
+    }
+
+    .conteinerFivese_sectionTwoSmallboxText {   
+        align-items: center;
+    }
+
+    .conteinerFivese_sectionOneBigbox  {
+        width: 200%;
+        margin-left: 10%;
+    }
+
+    .conteinerFivese_sectionOneBigbox::after {
+        margin-top: -70px;
+    }
+
+    .video_button {
+        top: 80%;
+        left: 150%;
+    }
+
+    .conteinerFivese_sectionTwoBigbox {
+        width: 100%;
+        margin-top: 20px;
+    }
+  
+}
+
+
+@media (min-width: 1000px) and (max-width: 1100px) {
+
+    .conteinerFivese_sectionOneBigbox  {
+        height: 80%;
+    }
+
+    .video_button {
+        top: 60%;
+        left: 70%;
+    }
+
+}
+
+@media (min-width: 1100px) and (max-width: 1200px) {
+
+    .conteinerFivese_sectionOneBigbox  {
+        height: 80%;
+        width: 90%;
+    }
+
+    .video_button {
+        top: 60%;
+        left: 60%;
+    }
+
+}
